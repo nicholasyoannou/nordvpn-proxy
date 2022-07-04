@@ -1,3 +1,6 @@
+# Disclaimer
+This is just a fork, have edited 1 or 2 files, just for personal use for conveniance. Really not intended for public use, but people can use this if they like.
+
 <p align="center">
     <a href="https://nordvpn.com/"><img src="https://www.freelogovectors.net/wp-content/uploads/2020/11/nordvpn-logo.png" width="400"/></a>
     </br>
@@ -56,7 +59,7 @@ docker run -d \
 -v /etc/localtime:/etc/localtime:ro \
 -v ovpn-data:/app/ovpn/config \
 -p 8118:8118 \
-jeroenslot/nordvpn-proxy:latest 
+nicholasyoannou/nordvpn-proxy:latest 
 ```
 
 Now you can connect other containers to use this connection:
